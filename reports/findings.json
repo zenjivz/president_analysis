@@ -1,0 +1,1075 @@
+{
+  "checkpoint_utc": "2026-11-20T03:12:46Z",
+  "evidence_cutoff_utc": "2026-11-12T19:44:39Z",
+  "ledger_page_investigated": 425,
+  "aggregate": {
+    "inventory": 20728,
+    "completed": 1775,
+    "rates": {
+      "all": {
+        "supported": {
+          "estimate": 0.35774084780418697,
+          "estimated_count": 7415.252293285188,
+          "known_denominator": 20728,
+          "sampled_subset_count": 1775,
+          "conservative_95_percent_design_interval": [
+            0.13971439598610574,
+            0.6383635661906599
+          ],
+          "interval_method": "Exact equal-tail hypergeometric inversion in 55 event stratum(s), Bonferroni combined over event totals for one status at a time."
+        },
+        "contradicted": {
+          "estimate": 0.14288847730901702,
+          "estimated_count": 2961.7923576613052,
+          "known_denominator": 20728,
+          "sampled_subset_count": 1775,
+          "conservative_95_percent_design_interval": [
+            0.029525279814743344,
+            0.4122443072172906
+          ],
+          "interval_method": "Exact equal-tail hypergeometric inversion in 55 event stratum(s), Bonferroni combined over event totals for one status at a time."
+        },
+        "unresolved": {
+          "estimate": 0.499370674886796,
+          "estimated_count": 10350.955349053507,
+          "known_denominator": 20728,
+          "sampled_subset_count": 1775,
+          "conservative_95_percent_design_interval": [
+            0.23842145889617908,
+            0.7585874179853338
+          ],
+          "interval_method": "Exact equal-tail hypergeometric inversion in 55 event stratum(s), Bonferroni combined over event totals for one status at a time."
+        }
+      }
+    },
+    "raw_counts": {
+      "contradicted": 246,
+      "supported": 716,
+      "unresolved": 813
+    },
+    "events": [
+      {
+        "id": "BALLROOM20261104",
+        "name": "White House ballroom remarks",
+        "inventory": 182,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 9,
+          "contradicted": 4,
+          "unresolved": 26
+        }
+      },
+      {
+        "id": "BULLHEADCITY20261014",
+        "name": "Bullhead City rally",
+        "inventory": 714,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 14,
+          "contradicted": 3,
+          "unresolved": 22
+        }
+      },
+      {
+        "id": "CHILLICOTHE20261028",
+        "name": "Speech: Donald Trump Holds a Midterm Political Rally in Chillicothe, Ohio - October 28, 2026",
+        "inventory": 555,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 6,
+          "unresolved": 22
+        }
+      },
+      {
+        "id": "CORINTH20261026",
+        "name": "Corinth rally",
+        "inventory": 657,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 14,
+          "contradicted": 4,
+          "unresolved": 20
+        }
+      },
+      {
+        "id": "CORPUSCHRISTI20261027",
+        "name": "Corpus Christi rally",
+        "inventory": 526,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 6,
+          "unresolved": 22
+        }
+      },
+      {
+        "id": "DALTON20261016",
+        "name": "Dalton rally",
+        "inventory": 582,
+        "completed": 36,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 8,
+          "unresolved": 16
+        }
+      },
+      {
+        "id": "DAYTONA20261030",
+        "name": "Speech: Donald Trump Holds a Midterm Political Rally in Daytona Beach, Florida - October 30, 2026",
+        "inventory": 475,
+        "completed": 37,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 4,
+          "unresolved": 21
+        }
+      },
+      {
+        "id": "DUBUQUE20261101",
+        "name": "Speech: Donald Trump Holds a Midterm Political Rally in Dubuque, Iowa - November 1, 2026",
+        "inventory": 700,
+        "completed": 37,
+        "raw_counts": {
+          "supported": 9,
+          "contradicted": 4,
+          "unresolved": 24
+        }
+      },
+      {
+        "id": "FORTMYERS20261023",
+        "name": "Fort Myers rally",
+        "inventory": 552,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 17,
+          "contradicted": 5,
+          "unresolved": 17
+        }
+      },
+      {
+        "id": "GRAHAMTELE20261015",
+        "name": "South Carolina tele-rally",
+        "inventory": 97,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 16,
+          "contradicted": 6,
+          "unresolved": 18
+        }
+      },
+      {
+        "id": "GREENVILLE20261020",
+        "name": "Greenville rally",
+        "inventory": 639,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 17,
+          "contradicted": 6,
+          "unresolved": 15
+        }
+      },
+      {
+        "id": "HIGHLANDHEIGHTS20261017",
+        "name": "Highland Heights rally",
+        "inventory": 510,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 8,
+          "unresolved": 19
+        }
+      },
+      {
+        "id": "IN20261102",
+        "name": "Remarks: Donald Trump Holds a Virtual Tele-Rally for Indiana GOP Candidates - November 2, 2026",
+        "inventory": 72,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 10,
+          "contradicted": 12,
+          "unresolved": 16
+        }
+      },
+      {
+        "id": "KALISPELL20261014",
+        "name": "Kalispell rally",
+        "inventory": 443,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 9,
+          "contradicted": 9,
+          "unresolved": 20
+        }
+      },
+      {
+        "id": "LUBBOCK20261027",
+        "name": "Lubbock rally",
+        "inventory": 772,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 23,
+          "contradicted": 2,
+          "unresolved": 14
+        }
+      },
+      {
+        "id": "PARKCITY20261019",
+        "name": "Park City rally",
+        "inventory": 598,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 6,
+          "unresolved": 21
+        }
+      },
+      {
+        "id": "PENDLETON20261021",
+        "name": "Pendleton rally",
+        "inventory": 513,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 18,
+          "contradicted": 4,
+          "unresolved": 16
+        }
+      },
+      {
+        "id": "PERRY20261024",
+        "name": "Perry rally",
+        "inventory": 620,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 7,
+          "unresolved": 21
+        }
+      },
+      {
+        "id": "PORTHURON20261025",
+        "name": "Port Huron rally",
+        "inventory": 528,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 10,
+          "contradicted": 8,
+          "unresolved": 22
+        }
+      },
+      {
+        "id": "PRESS20261109",
+        "name": "Unscheduled White House press conference opening",
+        "inventory": 96,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 22,
+          "contradicted": 5,
+          "unresolved": 13
+        }
+      },
+      {
+        "id": "ROCKHILL20261029",
+        "name": "Speech: Donald Trump Holds a Midterm Political Rally in Rock Hill, South Carolina - October 29, 2026",
+        "inventory": 525,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 11,
+          "unresolved": 16
+        }
+      },
+      {
+        "id": "ROSEGARDEN20261015",
+        "name": "Rose Garden first-responder lunch",
+        "inventory": 231,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 17,
+          "contradicted": 4,
+          "unresolved": 19
+        }
+      },
+      {
+        "id": "SALINA20261101",
+        "name": "Speech: Donald Trump Holds a Midterm Political Rally in Salina, Kansas - November 1, 2026",
+        "inventory": 521,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 9,
+          "unresolved": 19
+        }
+      },
+      {
+        "id": "SIGN20261105",
+        "name": "Oval Office proclamation signing remarks",
+        "inventory": 27,
+        "completed": 27,
+        "raw_counts": {
+          "supported": 20,
+          "contradicted": 4,
+          "unresolved": 3
+        }
+      },
+      {
+        "id": "SIOUXCITY20261022",
+        "name": "Sioux City rally",
+        "inventory": 537,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 15,
+          "contradicted": 7,
+          "unresolved": 17
+        }
+      },
+      {
+        "id": "SPACE20261106",
+        "name": "Kennedy Space Center transportation summit remarks",
+        "inventory": 126,
+        "completed": 40,
+        "raw_counts": {
+          "supported": 31,
+          "contradicted": 3,
+          "unresolved": 6
+        }
+      },
+      {
+        "id": "VETS20261111",
+        "name": "National Veterans Day Ceremony remarks",
+        "inventory": 124,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 20,
+          "contradicted": 3,
+          "unresolved": 15
+        }
+      },
+      {
+        "id": "WASILLA20261013",
+        "name": "Wasilla rally",
+        "inventory": 507,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 13,
+          "contradicted": 6,
+          "unresolved": 20
+        }
+      },
+      {
+        "id": "WOMENSHEALTH20261019",
+        "name": "Women’s Health signing",
+        "inventory": 103,
+        "completed": 39,
+        "raw_counts": {
+          "supported": 24,
+          "contradicted": 1,
+          "unresolved": 14
+        }
+      },
+      {
+        "id": "YOUNGSTOWN20261012",
+        "name": "Youngstown rally",
+        "inventory": 434,
+        "completed": 38,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 9,
+          "unresolved": 18
+        }
+      },
+      {
+        "id": "CLARKSVILLE20261010",
+        "name": "Remarks at a Campaign Rally for Tennessee Republican Candidates in Clarksville, Tennessee",
+        "inventory": 588,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 7,
+          "contradicted": 6,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "SYRACUSE20261009",
+        "name": "Remarks at a Campaign Rally for New York Republican Candidates in Syracuse, New York",
+        "inventory": 505,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 6,
+          "contradicted": 7,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "COLUMBUSDAY20261009",
+        "name": "Remarks at a Columbus Day Celebration",
+        "inventory": 418,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 2,
+          "unresolved": 11
+        }
+      },
+      {
+        "id": "SCIENCEMEDALS20261008",
+        "name": "Remarks on Presenting the National Medal of Science and National Medals of Technology and Innovation",
+        "inventory": 160,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 14,
+          "contradicted": 4,
+          "unresolved": 7
+        }
+      },
+      {
+        "id": "SANANTONIO20261007",
+        "name": "Remarks at a Campaign Rally for Texas Republican Candidates in San Antonio, Texas",
+        "inventory": 573,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 7,
+          "contradicted": 1,
+          "unresolved": 17
+        }
+      },
+      {
+        "id": "TRUMPACCOUNTS20261007",
+        "name": "Remarks on the Trump Accounts Children's Savings Program and an Exchange With Reporters",
+        "inventory": 89,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 13,
+          "contradicted": 5,
+          "unresolved": 7
+        }
+      },
+      {
+        "id": "SPARROWSPOINT20261006",
+        "name": "Remarks on Maritime Policy in Sparrows Point, Maryland",
+        "inventory": 355,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 8,
+          "contradicted": 0,
+          "unresolved": 17
+        }
+      },
+      {
+        "id": "GRANDISLAND20261005",
+        "name": "Remarks at a Campaign Rally for Nebraska Republican Candidates in Grand Island, Nebraska",
+        "inventory": 645,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 9,
+          "contradicted": 1,
+          "unresolved": 15
+        }
+      },
+      {
+        "id": "VANDALIA20261003",
+        "name": "Remarks at a Campaign Rally for Ohio Republican Candidates in Vandalia, Ohio",
+        "inventory": 602,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 10,
+          "contradicted": 3,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "MOBILE20261002",
+        "name": "Remarks at a Campaign Rally for Alabama Republican Candidates in Mobile, Alabama",
+        "inventory": 453,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 10,
+          "contradicted": 5,
+          "unresolved": 10
+        }
+      },
+      {
+        "id": "DURANT20261001",
+        "name": "Remarks in Durant, Oklahoma",
+        "inventory": 618,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 9,
+          "contradicted": 3,
+          "unresolved": 13
+        }
+      },
+      {
+        "id": "PETERBILT20261001",
+        "name": "Remarks on the National Economy in Denton, Texas",
+        "inventory": 417,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 6,
+          "contradicted": 1,
+          "unresolved": 18
+        }
+      },
+      {
+        "id": "DOMESTICENERGY20260930",
+        "name": "Remarks on Domestic Energy Production",
+        "inventory": 135,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 17,
+          "contradicted": 3,
+          "unresolved": 5
+        }
+      },
+      {
+        "id": "HISPANICHERITAGE20260930",
+        "name": "Remarks at a National Hispanic Heritage Month Celebration",
+        "inventory": 387,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 7,
+          "contradicted": 6,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "AMERICAGOV20260929",
+        "name": "Remarks on Improving Government Service Delivery Through Artificial Intelligence",
+        "inventory": 101,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 14,
+          "contradicted": 2,
+          "unresolved": 9
+        }
+      },
+      {
+        "id": "XISTATEDINNER20260924",
+        "name": "Remarks at a State Dinner Honoring President Xi Jinping of China",
+        "inventory": 54,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 16,
+          "contradicted": 1,
+          "unresolved": 8
+        }
+      },
+      {
+        "id": "XIWELCOME20260924",
+        "name": "Remarks at a Welcoming Ceremony for President Xi Jinping of China",
+        "inventory": 41,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 22,
+          "contradicted": 1,
+          "unresolved": 2
+        }
+      },
+      {
+        "id": "GCC20260922",
+        "name": "Remarks During a Multilateral Meeting With the Gulf Cooperation Council in New York City",
+        "inventory": 122,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 10,
+          "contradicted": 3,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "SHIELD20260922",
+        "name": "Remarks at a Meeting on the Shield of the Americas Initiative in New York City",
+        "inventory": 58,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 2,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "UNGA20260922",
+        "name": "Remarks to the United Nations General Assembly in New York City",
+        "inventory": 313,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 2,
+          "unresolved": 12
+        }
+      },
+      {
+        "id": "PRESCRIPTIONDRUGS20260918",
+        "name": "Remarks on Prescription Drug Prices and an Exchange With Reporters",
+        "inventory": 75,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 12,
+          "contradicted": 5,
+          "unresolved": 8
+        }
+      },
+      {
+        "id": "ROSEGARDEN20260917",
+        "name": "Remarks at a Rose Garden Club Dinner",
+        "inventory": 162,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 9,
+          "contradicted": 2,
+          "unresolved": 14
+        }
+      },
+      {
+        "id": "GASTONIA20260916",
+        "name": "Remarks at a Campaign Rally for North Carolina Republican Senatorial Candidate Michael D. Whatley in Gastonia, North Carolina",
+        "inventory": 493,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 5,
+          "contradicted": 4,
+          "unresolved": 16
+        }
+      },
+      {
+        "id": "DUBLIN20260912",
+        "name": "Remarks to United States Embassy Personnel and Business Leaders in Dublin, Ireland",
+        "inventory": 304,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 11,
+          "contradicted": 3,
+          "unresolved": 11
+        }
+      },
+      {
+        "id": "PENTAGON20260911",
+        "name": "Remarks on the 25th Anniversary of the September 11, 2001, Terrorist Attacks in Arlington, Virginia",
+        "inventory": 94,
+        "completed": 25,
+        "raw_counts": {
+          "supported": 16,
+          "contradicted": 0,
+          "unresolved": 9
+        }
+      }
+    ]
+  },
+  "combined": {
+    "events": 57,
+    "inventory": 21164,
+    "completed": 1825,
+    "supported": 732,
+    "contradicted": 257,
+    "unresolved": 836
+  },
+  "comparisons": [
+    {
+      "name": "Lincoln Memorial remarks",
+      "inventory": 391,
+      "completed": 25,
+      "raw_counts": {
+        "supported": 7,
+        "contradicted": 5,
+        "unresolved": 13
+      }
+    },
+    {
+      "name": "CPAC dinner excerpt",
+      "inventory": 45,
+      "completed": 25,
+      "raw_counts": {
+        "supported": 9,
+        "contradicted": 6,
+        "unresolved": 10
+      }
+    }
+  ],
+  "unresolved_reasons": {
+    "Unclear definition or comparison": 280,
+    "Records cover only part": 336,
+    "No direct public record found": 153,
+    "Spoken wording unverified": 2,
+    "Cause not established": 65
+  },
+  "followup": {
+    "new_investigated": 50,
+    "new_raw_counts": {
+      "supported": 18,
+      "contradicted": 4,
+      "unresolved": 28
+    },
+    "reviewed_old": 518,
+    "revised_old": 87,
+    "supplemental_current_raw_counts": {
+      "unresolved": 9,
+      "contradicted": 5,
+      "supported": 11
+    },
+    "first_draw_raw_counts": {
+      "supported": 9,
+      "contradicted": 3,
+      "unresolved": 13
+    },
+    "second_draw_raw_counts": {
+      "supported": 9,
+      "unresolved": 15,
+      "contradicted": 1
+    },
+    "second_draw_current_raw_counts": {
+      "unresolved": 15,
+      "supported": 9,
+      "contradicted": 1
+    },
+    "clarksville_raw_counts": {
+      "supported": 6,
+      "contradicted": 5,
+      "unresolved": 14
+    },
+    "october9_draws": {
+      "Syracuse": {
+        "supported": 6,
+        "contradicted": 6,
+        "unresolved": 13
+      },
+      "Columbus Day": {
+        "supported": 12,
+        "contradicted": 2,
+        "unresolved": 11
+      }
+    },
+    "expansion_draws": {
+      "Clarksville": {
+        "initial": {
+          "supported": 6,
+          "contradicted": 5,
+          "unresolved": 14
+        },
+        "current": {
+          "supported": 7,
+          "contradicted": 6,
+          "unresolved": 12
+        }
+      },
+      "Syracuse": {
+        "initial": {
+          "supported": 6,
+          "contradicted": 6,
+          "unresolved": 13
+        },
+        "current": {
+          "supported": 6,
+          "contradicted": 7,
+          "unresolved": 12
+        }
+      },
+      "Columbus Day": {
+        "initial": {
+          "supported": 12,
+          "contradicted": 2,
+          "unresolved": 11
+        },
+        "current": {
+          "supported": 12,
+          "contradicted": 2,
+          "unresolved": 11
+        }
+      },
+      "Science medals ceremony": {
+        "initial": {
+          "supported": 12,
+          "contradicted": 3,
+          "unresolved": 10
+        },
+        "current": {
+          "supported": 14,
+          "contradicted": 4,
+          "unresolved": 7
+        }
+      },
+      "San Antonio": {
+        "initial": {
+          "supported": 7,
+          "contradicted": 1,
+          "unresolved": 17
+        },
+        "current": {
+          "supported": 7,
+          "contradicted": 1,
+          "unresolved": 17
+        }
+      },
+      "Trump Accounts announcement": {
+        "initial": {
+          "supported": 13,
+          "contradicted": 5,
+          "unresolved": 7
+        },
+        "current": {
+          "supported": 13,
+          "contradicted": 5,
+          "unresolved": 7
+        }
+      },
+      "Sparrows Point maritime address": {
+        "initial": {
+          "supported": 5,
+          "contradicted": 0,
+          "unresolved": 20
+        },
+        "current": {
+          "supported": 8,
+          "contradicted": 0,
+          "unresolved": 17
+        }
+      },
+      "Grand Island campaign rally": {
+        "initial": {
+          "supported": 9,
+          "contradicted": 0,
+          "unresolved": 16
+        },
+        "current": {
+          "supported": 9,
+          "contradicted": 1,
+          "unresolved": 15
+        }
+      },
+      "Vandalia campaign rally": {
+        "initial": {
+          "supported": 10,
+          "contradicted": 3,
+          "unresolved": 12
+        },
+        "current": {
+          "supported": 10,
+          "contradicted": 3,
+          "unresolved": 12
+        }
+      },
+      "Mobile campaign rally": {
+        "initial": {
+          "supported": 9,
+          "contradicted": 5,
+          "unresolved": 11
+        },
+        "current": {
+          "supported": 10,
+          "contradicted": 5,
+          "unresolved": 10
+        }
+      },
+      "Durant campaign rally": {
+        "initial": {
+          "supported": 9,
+          "contradicted": 3,
+          "unresolved": 13
+        },
+        "current": {
+          "supported": 9,
+          "contradicted": 3,
+          "unresolved": 13
+        }
+      },
+      "Denton Peterbilt address": {
+        "initial": {
+          "supported": 6,
+          "contradicted": 1,
+          "unresolved": 18
+        },
+        "current": {
+          "supported": 6,
+          "contradicted": 1,
+          "unresolved": 18
+        }
+      },
+      "Domestic-energy announcement opening": {
+        "initial": {
+          "supported": 17,
+          "contradicted": 3,
+          "unresolved": 5
+        },
+        "current": {
+          "supported": 17,
+          "contradicted": 3,
+          "unresolved": 5
+        }
+      },
+      "National Hispanic Heritage Month celebration": {
+        "initial": {
+          "supported": 6,
+          "contradicted": 6,
+          "unresolved": 13
+        },
+        "current": {
+          "supported": 7,
+          "contradicted": 6,
+          "unresolved": 12
+        }
+      },
+      "America.gov launch address": {
+        "initial": {
+          "supported": 13,
+          "contradicted": 1,
+          "unresolved": 11
+        },
+        "current": {
+          "supported": 14,
+          "contradicted": 2,
+          "unresolved": 9
+        }
+      },
+      "State dinner honoring Xi Jinping": {
+        "initial": {
+          "supported": 16,
+          "contradicted": 1,
+          "unresolved": 8
+        },
+        "current": {
+          "supported": 16,
+          "contradicted": 1,
+          "unresolved": 8
+        }
+      },
+      "Grand Foyer welcome for Xi Jinping": {
+        "initial": {
+          "supported": 22,
+          "contradicted": 1,
+          "unresolved": 2
+        },
+        "current": {
+          "supported": 22,
+          "contradicted": 1,
+          "unresolved": 2
+        }
+      },
+      "Gulf Cooperation Council address": {
+        "initial": {
+          "supported": 10,
+          "contradicted": 2,
+          "unresolved": 13
+        },
+        "current": {
+          "supported": 10,
+          "contradicted": 3,
+          "unresolved": 12
+        }
+      },
+      "Shield of the Americas opening": {
+        "initial": {
+          "supported": 11,
+          "contradicted": 1,
+          "unresolved": 13
+        },
+        "current": {
+          "supported": 11,
+          "contradicted": 2,
+          "unresolved": 12
+        }
+      },
+      "United Nations General Assembly address": {
+        "initial": {
+          "supported": 11,
+          "contradicted": 1,
+          "unresolved": 13
+        },
+        "current": {
+          "supported": 11,
+          "contradicted": 2,
+          "unresolved": 12
+        }
+      },
+      "Prescription drug prices opening": {
+        "initial": {
+          "supported": 12,
+          "contradicted": 5,
+          "unresolved": 8
+        },
+        "current": {
+          "supported": 12,
+          "contradicted": 5,
+          "unresolved": 8
+        }
+      },
+      "Rose Garden Club Dinner address": {
+        "initial": {
+          "supported": 9,
+          "contradicted": 2,
+          "unresolved": 14
+        },
+        "current": {
+          "supported": 9,
+          "contradicted": 2,
+          "unresolved": 14
+        }
+      },
+      "Gastonia campaign rally": {
+        "initial": {
+          "supported": 5,
+          "contradicted": 4,
+          "unresolved": 16
+        },
+        "current": {
+          "supported": 5,
+          "contradicted": 4,
+          "unresolved": 16
+        }
+      },
+      "Dublin embassy address": {
+        "initial": {
+          "supported": 11,
+          "contradicted": 3,
+          "unresolved": 11
+        },
+        "current": {
+          "supported": 11,
+          "contradicted": 3,
+          "unresolved": 11
+        }
+      },
+      "September 11 Pentagon observance": {
+        "initial": {
+          "supported": 16,
+          "contradicted": 0,
+          "unresolved": 9
+        },
+        "current": {
+          "supported": 16,
+          "contradicted": 0,
+          "unresolved": 9
+        }
+      }
+    }
+  },
+  "unresolved_direction": {
+    "total": 836,
+    "counts": {
+      "positive": 334,
+      "negative": 282,
+      "mixed": 5,
+      "undetermined": 215
+    },
+    "scope": "All unresolved investigations, including both comparison samples.",
+    "blind_audit": {
+      "reviewed": 40,
+      "initial_agreement": 30
+    },
+    "measure": "Rhetorical direction of the claim wording.",
+    "new_coding_audit": {
+      "reviewed": 8,
+      "initial_agreement": 7
+    }
+  },
+  "unresolved_goal": {
+    "denominator": 1825,
+    "unresolved": 836,
+    "unresolved_share": 0.45808219178082193,
+    "baseline_unresolved": 597,
+    "baseline_unresolved_share": 0.5191304347826087,
+    "milestone": 0.4,
+    "maximum_unresolved_at_milestone": 730,
+    "further_resolutions_at_fixed_sample": 106,
+    "additional_all_conclusive_at_fixed_unresolved": 265,
+    "met": false
+  }
+}

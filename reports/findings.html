@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d35">
+  <title>Presidential speech findings — Speech Ledger</title>
+  <link rel="stylesheet" href="../assets/report.css">
+  <style>
+.direction-panel {
+  background: #f0f4f2;
+  border: 1px solid #cdd9d4;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(18px, 3vw, 48px);
+  margin: 25px 0;
+  padding: clamp(18px, 3vw, 34px);
+}
+.direction-panel .direction-title {
+  border: 0;
+  padding: 0;
+  margin: 0 0 9px;
+  color: #183039;
+  font: 400 clamp(25px, 3vw, 34px)/1.15 Georgia, serif;
+  letter-spacing: -.025em;
+}
+.direction-panel .direction-scope {
+  color: #37645e;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: .06em;
+  margin: 0 0 9px;
+  text-transform: uppercase;
+}
+.direction-panel .direction-note {
+  color: #4b5f62;
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 0 0 8px;
+}
+.direction-panel .direction-method { font-size: 12px; font-weight: 700; }
+.direction-panel .direction-rows { align-self: center; display: grid; gap: 10px; margin: 0; }
+.direction-panel .direction-row {
+  display: grid;
+  grid-template-columns: minmax(102px, .65fr) minmax(44px, 1fr) max-content;
+  gap: 10px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.3;
+}
+.direction-panel .direction-row dt { color: #273c42; font-weight: 700; }
+.direction-panel .direction-value { color: #354c52; font-variant-numeric: tabular-nums; margin: 0; text-align: right; }
+.direction-panel .direction-track {
+  display: block;
+  height: 8px;
+  margin: 0;
+  background: #dbe5e0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.direction-panel .direction-bar { display: block; height: 100%; width: var(--share); background: #637871; }
+.direction-panel .direction-positive .direction-bar { background: #156778; }
+.direction-panel .direction-negative .direction-bar { background: #8a4657; }
+.direction-panel .direction-mixed .direction-bar { background: #88681a; }
+@media (max-width: 700px) {
+  .direction-panel { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+@media (max-width: 390px) {
+  .direction-panel .direction-row { grid-template-columns: minmax(80px, 1fr) minmax(28px, 1fr) max-content; gap: 6px; }
+}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to report</a>
+  <header class="report-masthead"><div class="shell"><a class="site-name" href="../README.md"><span class="mark">PS</span><span>Speech Ledger</span></a><a class="back" href="../README.md">← Project overview</a></div></header>
+  <main class="shell article-shell" id="content">
+    <p class="eyebrow">Research record / provisional machine review</p>
+    <h1 id="presidential-speech-findings">Presidential speech
+    findings</h1>
+    <p><strong>1,825 investigated claims across 57 events</strong></p>
+    <p>Updated 03:12 UTC, 20 November 2026. The weighted estimates cover
+    55 audited speech frames. The Lincoln Memorial and CPAC excerpt
+    samples each contribute 25 separate investigations.</p>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Investigations</th>
+    <th style="text-align: right;">Supported</th>
+    <th style="text-align: right;">Contradicted</th>
+    <th style="text-align: right;">Unresolved</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>All reviewed</td>
+    <td style="text-align: right;">732</td>
+    <td style="text-align: right;">257</td>
+    <td style="text-align: right;">836</td>
+    </tr>
+    <tr class="even">
+    <td>Initial 25-claim draw</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="odd">
+    <td>Same draw after evidence rechecks</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">9</td>
+    </tr>
+    <tr class="even">
+    <td>Second 25-claim draw</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">15</td>
+    </tr>
+    <tr class="odd">
+    <td>Second draw after rechecks</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">15</td>
+    </tr>
+    <tr class="even">
+    <td>Clarksville initial random draw</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">14</td>
+    </tr>
+    <tr class="odd">
+    <td>Clarksville after evidence rechecks</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="even">
+    <td>Syracuse initial random draw</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="odd">
+    <td>Syracuse after evidence rechecks</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="even">
+    <td>Columbus Day random draw</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">11</td>
+    </tr>
+    <tr class="odd">
+    <td>Science medals ceremony initial random draw</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">10</td>
+    </tr>
+    <tr class="even">
+    <td>Science medals ceremony after evidence rechecks</td>
+    <td style="text-align: right;">14</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">7</td>
+    </tr>
+    <tr class="odd">
+    <td>San Antonio random draw</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">17</td>
+    </tr>
+    <tr class="even">
+    <td>Trump Accounts announcement random draw</td>
+    <td style="text-align: right;">13</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">7</td>
+    </tr>
+    <tr class="odd">
+    <td>Sparrows Point maritime address initial random draw</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">0</td>
+    <td style="text-align: right;">20</td>
+    </tr>
+    <tr class="even">
+    <td>Sparrows Point maritime address after evidence rechecks</td>
+    <td style="text-align: right;">8</td>
+    <td style="text-align: right;">0</td>
+    <td style="text-align: right;">17</td>
+    </tr>
+    <tr class="odd">
+    <td>Grand Island campaign rally initial random draw</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">0</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="even">
+    <td>Grand Island campaign rally after evidence rechecks</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">15</td>
+    </tr>
+    <tr class="odd">
+    <td>Vandalia campaign rally random draw</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="even">
+    <td>Mobile campaign rally initial random draw</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">11</td>
+    </tr>
+    <tr class="odd">
+    <td>Mobile campaign rally after evidence rechecks</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">10</td>
+    </tr>
+    <tr class="even">
+    <td>Durant campaign rally random draw</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="odd">
+    <td>Denton Peterbilt address random draw</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">18</td>
+    </tr>
+    <tr class="even">
+    <td>Domestic-energy announcement opening random draw</td>
+    <td style="text-align: right;">17</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">5</td>
+    </tr>
+    <tr class="odd">
+    <td>National Hispanic Heritage Month celebration initial random
+    draw</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="even">
+    <td>National Hispanic Heritage Month celebration after evidence
+    rechecks</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>America.gov launch address initial random draw</td>
+    <td style="text-align: right;">13</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">11</td>
+    </tr>
+    <tr class="even">
+    <td>America.gov launch address after evidence rechecks</td>
+    <td style="text-align: right;">14</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">9</td>
+    </tr>
+    <tr class="odd">
+    <td>State dinner honoring Xi Jinping random draw</td>
+    <td style="text-align: right;">16</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">8</td>
+    </tr>
+    <tr class="even">
+    <td>Grand Foyer welcome for Xi Jinping random draw</td>
+    <td style="text-align: right;">22</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">2</td>
+    </tr>
+    <tr class="odd">
+    <td>Gulf Cooperation Council address initial random draw</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="even">
+    <td>Gulf Cooperation Council address after evidence rechecks</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>Shield of the Americas opening initial random draw</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="even">
+    <td>Shield of the Americas opening after evidence rechecks</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>United Nations General Assembly address initial random draw</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="even">
+    <td>United Nations General Assembly address after evidence
+    rechecks</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>Prescription drug prices opening random draw</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">8</td>
+    </tr>
+    <tr class="even">
+    <td>Rose Garden Club Dinner address random draw</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">14</td>
+    </tr>
+    <tr class="odd">
+    <td>Gastonia campaign rally random draw</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="even">
+    <td>Dublin embassy address random draw</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">11</td>
+    </tr>
+    <tr class="odd">
+    <td>September 11 Pentagon observance random draw</td>
+    <td style="text-align: right;">16</td>
+    <td style="text-align: right;">0</td>
+    <td style="text-align: right;">9</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2 id="weighted-share-within-the-studied-speech-frames">Weighted
+    share within the studied speech frames</h2>
+    <p>The 55 speech frames contain 20,728 claim occurrences. The study
+    selected claims at random within each speech. An unresolved verdict
+    means the claim received an evidence review. Two separate comparison
+    samples add 50 investigations to the study total.</p>
+    <p><img src="../assets/overnight-current.svg"
+    alt="Estimated shares and separate 95% sampling intervals" /></p>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Verdict</th>
+    <th style="text-align: right;">Estimate</th>
+    <th style="text-align: right;">Conservative 95% design interval</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Supported</td>
+    <td style="text-align: right;">35.8%</td>
+    <td style="text-align: right;">14.0%–63.8%</td>
+    </tr>
+    <tr class="even">
+    <td>Contradicted</td>
+    <td style="text-align: right;">14.3%</td>
+    <td style="text-align: right;">3.0%–41.2%</td>
+    </tr>
+    <tr class="odd">
+    <td>Unresolved</td>
+    <td style="text-align: right;">49.9%</td>
+    <td style="text-align: right;">23.8%–75.9%</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>The weighted estimate includes 1,775 investigations from 20,728
+    audited claim occurrences. The intervals reflect sampling variation
+    within these frames. The review is exploratory and
+    machine-based.</p>
+    <section class="direction-panel" id="unresolved-direction" aria-labelledby="direction-title">
+    <div class="direction-copy">
+    <p class="direction-scope">836 unresolved claims · all investigated events</p>
+    <h2 class="direction-title" id="direction-title">Direction of unresolved claims</h2>
+    <p class="direction-note">Positive wording gives credit or describes a benefit. Negative wording assigns blame or describes harm. This chart codes wording. Audience effects require audience data.</p>
+    <a class="direction-method" href="#direction-method">Read the coding method</a>
+    </div>
+    <dl class="direction-rows" aria-label="Rhetorical direction counts and shares">
+    <div class="direction-row direction-positive" data-direction="positive">
+    <dt>Positive</dt>
+    <dd class="direction-track" aria-hidden="true"><span class="direction-bar" style="--share:40.0%"></span></dd>
+    <dd class="direction-value">334 · 40.0%</dd>
+    </div>
+    <div class="direction-row direction-negative" data-direction="negative">
+    <dt>Negative</dt>
+    <dd class="direction-track" aria-hidden="true"><span class="direction-bar" style="--share:33.7%"></span></dd>
+    <dd class="direction-value">282 · 33.7%</dd>
+    </div>
+    <div class="direction-row direction-mixed" data-direction="mixed">
+    <dt>Mixed</dt>
+    <dd class="direction-track" aria-hidden="true"><span class="direction-bar" style="--share:0.6%"></span></dd>
+    <dd class="direction-value">5 · 0.6%</dd>
+    </div>
+    <div class="direction-row direction-undetermined" data-direction="undetermined">
+    <dt>Undetermined</dt>
+    <dd class="direction-track" aria-hidden="true"><span class="direction-bar" style="--share:25.7%"></span></dd>
+    <dd class="direction-value">215 · 25.7%</dd>
+    </div>
+    </dl>
+    </section>
+
+    <h2 id="why-claims-are-unresolved">Why claims are unresolved</h2>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Main reason</th>
+    <th style="text-align: right;">Claims</th>
+    <th>What it means</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Unclear definition or comparison</td>
+    <td style="text-align: right;">280</td>
+    <td>The wording leaves the measure, comparison, population or time
+    period open.</td>
+    </tr>
+    <tr class="even">
+    <td>Records cover only part</td>
+    <td style="text-align: right;">336</td>
+    <td>Public sources establish some details but leave a decisive part
+    unverified.</td>
+    </tr>
+    <tr class="odd">
+    <td>No direct public record found</td>
+    <td style="text-align: right;">153</td>
+    <td>Research found no accessible source that directly answers the
+    claim.</td>
+    </tr>
+    <tr class="even">
+    <td>Spoken wording unverified</td>
+    <td style="text-align: right;">2</td>
+    <td>A recording or transcript is needed to establish the relevant
+    words or attribution.</td>
+    </tr>
+    <tr class="odd">
+    <td>Cause not established</td>
+    <td style="text-align: right;">65</td>
+    <td>The record may show the outcome, but it does not establish what
+    caused it.</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2 id="evidence-follow-up">Evidence follow-up</h2>
+    <p>836 of 1,825 investigated claims remain unresolved (45.81%). The
+    baseline was 51.91%. The research target is 40% or less.</p>
+    <p>Independent machine reviews rechecked 518 earlier unresolved
+    claims. The review changed 87 verdicts and kept 431 unresolved. Each
+    change answers the original claim under the existing evidence
+    cutoff. Two random supplements added 50 investigations across the
+    original 30 eligible frames. 25 additional speech frames each
+    contribute a 25-claim random draw.</p>
+    <h2 id="direction-method">Coding rhetorical direction</h2>
+
+    <p>The unit is one unresolved claim occurrence. The quoted words and
+    frozen interpretation determine its direction. Positive covers
+    praise, favorable credit, and claimed benefits. Negative covers
+    blame, allegations of wrongdoing, and adverse outcomes. Mixed is
+    reserved for one claim with both directions. Undetermined covers
+    descriptive wording and unclear referents whose direction would
+    require guessing. Counts include the comparison samples. Measuring
+    actual influence on attitudes or behavior requires audience
+    data.</p>
+    <p>Independent machine coders initially agreed on 30 of 40 randomly
+    audited prior cases. The sampled disagreements were reconciled.</p>
+    <h2 id="counts-by-event">Counts by event</h2>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Event</th>
+    <th style="text-align: right;">Inventoried</th>
+    <th style="text-align: right;">Investigated</th>
+    <th style="text-align: right;">Supported</th>
+    <th style="text-align: right;">Contradicted</th>
+    <th style="text-align: right;">Unresolved</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>White House ballroom remarks</td>
+    <td style="text-align: right;">182</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">26</td>
+    </tr>
+    <tr class="even">
+    <td>Bullhead City rally</td>
+    <td style="text-align: right;">714</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">14</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">22</td>
+    </tr>
+    <tr class="odd">
+    <td>Speech: Donald Trump Holds a Midterm Political Rally in
+    Chillicothe, Ohio - October 28, 2026</td>
+    <td style="text-align: right;">555</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">22</td>
+    </tr>
+    <tr class="even">
+    <td>Corinth rally</td>
+    <td style="text-align: right;">657</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">14</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">20</td>
+    </tr>
+    <tr class="odd">
+    <td>Corpus Christi rally</td>
+    <td style="text-align: right;">526</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">22</td>
+    </tr>
+    <tr class="even">
+    <td>Dalton rally</td>
+    <td style="text-align: right;">582</td>
+    <td style="text-align: right;">36</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">8</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="odd">
+    <td>Speech: Donald Trump Holds a Midterm Political Rally in Daytona
+    Beach, Florida - October 30, 2026</td>
+    <td style="text-align: right;">475</td>
+    <td style="text-align: right;">37</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">21</td>
+    </tr>
+    <tr class="even">
+    <td>Speech: Donald Trump Holds a Midterm Political Rally in Dubuque,
+    Iowa - November 1, 2026</td>
+    <td style="text-align: right;">700</td>
+    <td style="text-align: right;">37</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">24</td>
+    </tr>
+    <tr class="odd">
+    <td>Fort Myers rally</td>
+    <td style="text-align: right;">552</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">17</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">17</td>
+    </tr>
+    <tr class="even">
+    <td>South Carolina tele-rally</td>
+    <td style="text-align: right;">97</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">16</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">18</td>
+    </tr>
+    <tr class="odd">
+    <td>Greenville rally</td>
+    <td style="text-align: right;">639</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">17</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">15</td>
+    </tr>
+    <tr class="even">
+    <td>Highland Heights rally</td>
+    <td style="text-align: right;">510</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">8</td>
+    <td style="text-align: right;">19</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks: Donald Trump Holds a Virtual Tele-Rally for Indiana GOP
+    Candidates - November 2, 2026</td>
+    <td style="text-align: right;">72</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="even">
+    <td>Kalispell rally</td>
+    <td style="text-align: right;">443</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">20</td>
+    </tr>
+    <tr class="odd">
+    <td>Lubbock rally</td>
+    <td style="text-align: right;">772</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">23</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">14</td>
+    </tr>
+    <tr class="even">
+    <td>Park City rally</td>
+    <td style="text-align: right;">598</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">21</td>
+    </tr>
+    <tr class="odd">
+    <td>Pendleton rally</td>
+    <td style="text-align: right;">513</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">18</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="even">
+    <td>Perry rally</td>
+    <td style="text-align: right;">620</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">21</td>
+    </tr>
+    <tr class="odd">
+    <td>Port Huron rally</td>
+    <td style="text-align: right;">528</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">8</td>
+    <td style="text-align: right;">22</td>
+    </tr>
+    <tr class="even">
+    <td>Unscheduled White House press conference opening</td>
+    <td style="text-align: right;">96</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">22</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="odd">
+    <td>Speech: Donald Trump Holds a Midterm Political Rally in Rock
+    Hill, South Carolina - October 29, 2026</td>
+    <td style="text-align: right;">525</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="even">
+    <td>Rose Garden first-responder lunch</td>
+    <td style="text-align: right;">231</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">17</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">19</td>
+    </tr>
+    <tr class="odd">
+    <td>Speech: Donald Trump Holds a Midterm Political Rally in Salina,
+    Kansas - November 1, 2026</td>
+    <td style="text-align: right;">521</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">19</td>
+    </tr>
+    <tr class="even">
+    <td>Oval Office proclamation signing remarks</td>
+    <td style="text-align: right;">27</td>
+    <td style="text-align: right;">27</td>
+    <td style="text-align: right;">20</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">3</td>
+    </tr>
+    <tr class="odd">
+    <td>Sioux City rally</td>
+    <td style="text-align: right;">537</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">15</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">17</td>
+    </tr>
+    <tr class="even">
+    <td>Kennedy Space Center transportation summit remarks</td>
+    <td style="text-align: right;">126</td>
+    <td style="text-align: right;">40</td>
+    <td style="text-align: right;">31</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">6</td>
+    </tr>
+    <tr class="odd">
+    <td>National Veterans Day Ceremony remarks</td>
+    <td style="text-align: right;">124</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">20</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">15</td>
+    </tr>
+    <tr class="even">
+    <td>Wasilla rally</td>
+    <td style="text-align: right;">507</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">13</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">20</td>
+    </tr>
+    <tr class="odd">
+    <td>Women’s Health signing</td>
+    <td style="text-align: right;">103</td>
+    <td style="text-align: right;">39</td>
+    <td style="text-align: right;">24</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">14</td>
+    </tr>
+    <tr class="even">
+    <td>Youngstown rally</td>
+    <td style="text-align: right;">434</td>
+    <td style="text-align: right;">38</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">18</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Campaign Rally for Tennessee Republican Candidates
+    in Clarksville, Tennessee</td>
+    <td style="text-align: right;">588</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks at a Campaign Rally for New York Republican Candidates
+    in Syracuse, New York</td>
+    <td style="text-align: right;">505</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Columbus Day Celebration</td>
+    <td style="text-align: right;">418</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">11</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks on Presenting the National Medal of Science and National
+    Medals of Technology and Innovation</td>
+    <td style="text-align: right;">160</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">14</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">7</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Campaign Rally for Texas Republican Candidates in
+    San Antonio, Texas</td>
+    <td style="text-align: right;">573</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">17</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks on the Trump Accounts Children's Savings Program and an
+    Exchange With Reporters</td>
+    <td style="text-align: right;">89</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">13</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">7</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks on Maritime Policy in Sparrows Point, Maryland</td>
+    <td style="text-align: right;">355</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">8</td>
+    <td style="text-align: right;">0</td>
+    <td style="text-align: right;">17</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks at a Campaign Rally for Nebraska Republican Candidates
+    in Grand Island, Nebraska</td>
+    <td style="text-align: right;">645</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">15</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Campaign Rally for Ohio Republican Candidates in
+    Vandalia, Ohio</td>
+    <td style="text-align: right;">602</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks at a Campaign Rally for Alabama Republican Candidates in
+    Mobile, Alabama</td>
+    <td style="text-align: right;">453</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">10</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks in Durant, Oklahoma</td>
+    <td style="text-align: right;">618</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks on the National Economy in Denton, Texas</td>
+    <td style="text-align: right;">417</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">18</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks on Domestic Energy Production</td>
+    <td style="text-align: right;">135</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">17</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">5</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks at a National Hispanic Heritage Month Celebration</td>
+    <td style="text-align: right;">387</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks on Improving Government Service Delivery Through
+    Artificial Intelligence</td>
+    <td style="text-align: right;">101</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">14</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">9</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks at a State Dinner Honoring President Xi Jinping of
+    China</td>
+    <td style="text-align: right;">54</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">16</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">8</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Welcoming Ceremony for President Xi Jinping of
+    China</td>
+    <td style="text-align: right;">41</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">22</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">2</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks During a Multilateral Meeting With the Gulf Cooperation
+    Council in New York City</td>
+    <td style="text-align: right;">122</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">10</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Meeting on the Shield of the Americas Initiative in
+    New York City</td>
+    <td style="text-align: right;">58</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks to the United Nations General Assembly in New York
+    City</td>
+    <td style="text-align: right;">313</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">12</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks on Prescription Drug Prices and an Exchange With
+    Reporters</td>
+    <td style="text-align: right;">75</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">12</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">8</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks at a Rose Garden Club Dinner</td>
+    <td style="text-align: right;">162</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">14</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks at a Campaign Rally for North Carolina Republican
+    Senatorial Candidate Michael D. Whatley in Gastonia, North
+    Carolina</td>
+    <td style="text-align: right;">493</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">16</td>
+    </tr>
+    <tr class="even">
+    <td>Remarks to United States Embassy Personnel and Business Leaders
+    in Dublin, Ireland</td>
+    <td style="text-align: right;">304</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">11</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">11</td>
+    </tr>
+    <tr class="odd">
+    <td>Remarks on the 25th Anniversary of the September 11, 2001,
+    Terrorist Attacks in Arlington, Virginia</td>
+    <td style="text-align: right;">94</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">16</td>
+    <td style="text-align: right;">0</td>
+    <td style="text-align: right;">9</td>
+    </tr>
+    <tr class="even">
+    <td>Lincoln Memorial remarks (comparison)</td>
+    <td style="text-align: right;">391</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">7</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">13</td>
+    </tr>
+    <tr class="odd">
+    <td>CPAC dinner excerpt (comparison)</td>
+    <td style="text-align: right;">45</td>
+    <td style="text-align: right;">25</td>
+    <td style="text-align: right;">9</td>
+    <td style="text-align: right;">6</td>
+    <td style="text-align: right;">10</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>The evidence and corpus cutoff is 12 November 2026 at 19:44:39
+    UTC. This research snapshot includes numerical records and selected
+    evidence notes. The case ledger, full transcripts and retrieval logs
+    remain in the research workspace.</p>
+    <ul>
+    <li><a href="findings.json">Download numerical data</a></li>
+    <li><a href="../data/events.csv">Download event-level data</a></li>
+    <li><a href="../docs/methodology.md">Read the study
+    methodology</a></li>
+    </ul>
+  </main>
+  <footer class="report-footer"><div class="shell"><span>Presidential Speech Ledger</span><span>Evidence cutoff 12 November 2026 · 19:44:39 UTC</span></div></footer>
+</body>
+</html>

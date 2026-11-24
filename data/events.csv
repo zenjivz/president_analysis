@@ -1,0 +1,58 @@
+event_id,event,study_scope,inventoried,investigated,outside_sample,supported,contradicted,unresolved
+BALLROOM20261104,White House ballroom remarks,main,182,39,143,9,4,26
+BULLHEADCITY20261014,Bullhead City rally,main,714,39,675,14,3,22
+CHILLICOTHE20261028,"Speech: Donald Trump Holds a Midterm Political Rally in Chillicothe, Ohio - October 28, 2026",main,555,40,515,12,6,22
+CORINTH20261026,Corinth rally,main,657,38,619,14,4,20
+CORPUSCHRISTI20261027,Corpus Christi rally,main,526,40,486,12,6,22
+DALTON20261016,Dalton rally,main,582,36,546,12,8,16
+DAYTONA20261030,"Speech: Donald Trump Holds a Midterm Political Rally in Daytona Beach, Florida - October 30, 2026",main,475,37,438,12,4,21
+DUBUQUE20261101,"Speech: Donald Trump Holds a Midterm Political Rally in Dubuque, Iowa - November 1, 2026",main,700,37,663,9,4,24
+FORTMYERS20261023,Fort Myers rally,main,552,39,513,17,5,17
+GRAHAMTELE20261015,South Carolina tele-rally,main,97,40,57,16,6,18
+GREENVILLE20261020,Greenville rally,main,639,38,601,17,6,15
+HIGHLANDHEIGHTS20261017,Highland Heights rally,main,510,38,472,11,8,19
+IN20261102,"Remarks: Donald Trump Holds a Virtual Tele-Rally for Indiana GOP Candidates - November 2, 2026",main,72,38,34,10,12,16
+KALISPELL20261014,Kalispell rally,main,443,38,405,9,9,20
+LUBBOCK20261027,Lubbock rally,main,772,39,733,23,2,14
+PARKCITY20261019,Park City rally,main,598,39,559,12,6,21
+PENDLETON20261021,Pendleton rally,main,513,38,475,18,4,16
+PERRY20261024,Perry rally,main,620,39,581,11,7,21
+PORTHURON20261025,Port Huron rally,main,528,40,488,10,8,22
+PRESS20261109,Unscheduled White House press conference opening,main,96,40,56,22,5,13
+ROCKHILL20261029,"Speech: Donald Trump Holds a Midterm Political Rally in Rock Hill, South Carolina - October 29, 2026",main,525,39,486,12,11,16
+ROSEGARDEN20261015,Rose Garden first-responder lunch,main,231,40,191,17,4,19
+SALINA20261101,"Speech: Donald Trump Holds a Midterm Political Rally in Salina, Kansas - November 1, 2026",main,521,39,482,11,9,19
+SIGN20261105,Oval Office proclamation signing remarks,main,27,27,0,20,4,3
+SIOUXCITY20261022,Sioux City rally,main,537,39,498,15,7,17
+SPACE20261106,Kennedy Space Center transportation summit remarks,main,126,40,86,31,3,6
+VETS20261111,National Veterans Day Ceremony remarks,main,124,38,86,20,3,15
+WASILLA20261013,Wasilla rally,main,507,39,468,13,6,20
+WOMENSHEALTH20261019,Women’s Health signing,main,103,39,64,24,1,14
+YOUNGSTOWN20261012,Youngstown rally,main,434,38,396,11,9,18
+CLARKSVILLE20261010,"Remarks at a Campaign Rally for Tennessee Republican Candidates in Clarksville, Tennessee",main,588,25,563,7,6,12
+SYRACUSE20261009,"Remarks at a Campaign Rally for New York Republican Candidates in Syracuse, New York",main,505,25,480,6,7,12
+COLUMBUSDAY20261009,Remarks at a Columbus Day Celebration,main,418,25,393,12,2,11
+SCIENCEMEDALS20261008,Remarks on Presenting the National Medal of Science and National Medals of Technology and Innovation,main,160,25,135,14,4,7
+SANANTONIO20261007,"Remarks at a Campaign Rally for Texas Republican Candidates in San Antonio, Texas",main,573,25,548,7,1,17
+TRUMPACCOUNTS20261007,Remarks on the Trump Accounts Children's Savings Program and an Exchange With Reporters,main,89,25,64,13,5,7
+SPARROWSPOINT20261006,"Remarks on Maritime Policy in Sparrows Point, Maryland",main,355,25,330,8,0,17
+GRANDISLAND20261005,"Remarks at a Campaign Rally for Nebraska Republican Candidates in Grand Island, Nebraska",main,645,25,620,9,1,15
+VANDALIA20261003,"Remarks at a Campaign Rally for Ohio Republican Candidates in Vandalia, Ohio",main,602,25,577,10,3,12
+MOBILE20261002,"Remarks at a Campaign Rally for Alabama Republican Candidates in Mobile, Alabama",main,453,25,428,10,5,10
+DURANT20261001,"Remarks in Durant, Oklahoma",main,618,25,593,9,3,13
+PETERBILT20261001,"Remarks on the National Economy in Denton, Texas",main,417,25,392,6,1,18
+DOMESTICENERGY20260930,Remarks on Domestic Energy Production,main,135,25,110,17,3,5
+HISPANICHERITAGE20260930,Remarks at a National Hispanic Heritage Month Celebration,main,387,25,362,7,6,12
+AMERICAGOV20260929,Remarks on Improving Government Service Delivery Through Artificial Intelligence,main,101,25,76,14,2,9
+XISTATEDINNER20260924,Remarks at a State Dinner Honoring President Xi Jinping of China,main,54,25,29,16,1,8
+XIWELCOME20260924,Remarks at a Welcoming Ceremony for President Xi Jinping of China,main,41,25,16,22,1,2
+GCC20260922,Remarks During a Multilateral Meeting With the Gulf Cooperation Council in New York City,main,122,25,97,10,3,12
+SHIELD20260922,Remarks at a Meeting on the Shield of the Americas Initiative in New York City,main,58,25,33,11,2,12
+UNGA20260922,Remarks to the United Nations General Assembly in New York City,main,313,25,288,11,2,12
+PRESCRIPTIONDRUGS20260918,Remarks on Prescription Drug Prices and an Exchange With Reporters,main,75,25,50,12,5,8
+ROSEGARDEN20260917,Remarks at a Rose Garden Club Dinner,main,162,25,137,9,2,14
+GASTONIA20260916,"Remarks at a Campaign Rally for North Carolina Republican Senatorial Candidate Michael D. Whatley in Gastonia, North Carolina",main,493,25,468,5,4,16
+DUBLIN20260912,"Remarks to United States Embassy Personnel and Business Leaders in Dublin, Ireland",main,304,25,279,11,3,11
+PENTAGON20260911,"Remarks on the 25th Anniversary of the September 11, 2001, Terrorist Attacks in Arlington, Virginia",main,94,25,69,16,0,9
+LINCOLN20261102,Lincoln Memorial remarks,comparison,391,25,366,7,5,13
+CPAC20261106,CPAC dinner excerpt,comparison,45,25,20,9,6,10
